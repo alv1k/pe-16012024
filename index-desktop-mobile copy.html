@@ -9,30 +9,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <style>
     /* bgcolor: #164194 - blue */
-    body{
-        width: 100% !important;
-        -webkit-text-size-adjust: 100%;
-        -ms-text-size-adjust: 100%;
-        margin: 0;
-        padding: 0;
-        line-height: 100%;
-    }
-    
+   
     [style*="Montserrat"] {
         font-family: 'Montserrat', arial, sans-serif !important;
-    }
-    .header{
-        background: radial-gradient(#164194 92%,#16419400 90%),
-        linear-gradient(to bottom, #164194 50%, 
-        transparent 50%, transparent 100%);
-        background-position-y:-10px;
-        background-repeat: no-repeat;
-    }
-    .main{
-        margin-top: -40px;
-    }
-    table{
-        border-collapse: collapse;
     }
     .table-600{
         width: 600px;
@@ -142,7 +121,6 @@
             width: 330px;
         }
 
-
         .address-td table tr:nth-child(1) td:nth-child(1) img{
             width: 24px !important;
         }
@@ -191,16 +169,16 @@
   </style>
   
 </head>
-<body style="margin: 0;padding: 0;">
+<body style="margin: 0;padding: 0; width: 100% !important;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;margin: 0;padding: 0;line-height: 100%;">
     <div style="font-style: 0px;font-color: #ffffff; opacity: 0;visibility: hidden;width: 0; height: 0;display: none;">Testing letter</div>
     <table cellpadding="0" cellspacing="0" width="100%" gbcolor="#164194">
         <tr>
             <td>
-                <table class="main table-600" cellpadding="0" cellspacing="0" width="600" align="center">
-                    
+                <table class="table-600" cellpadding="0" cellspacing="0" width="600" align="center">
                     <tr>
                         <td class="header-td">
-                            <table class="header table-600" cellpadding="0" cellspacing="0" width="600" height="300" align="center">
+                            <table class="header table-600" cellpadding="0" cellspacing="0" width="600" height="300" align="center" style="background: radial-gradient(#164194 92%,#16419400 90%),
+                            linear-gradient(to bottom, #164194 50%, transparent 50%, transparent 100%);background-position-y:-10px;background-repeat: no-repeat;">
                                 <tr>
                                     <td align="center" class="logo" style="padding-top: 10px;">
                                         <img src="images/logo.png" alt="logo">
@@ -223,7 +201,7 @@
                     </tr>
                     <tr>
                         <td class="main-td"  bgcolor="#ffffff">
-                            <table class="main table-570" cellpadding="0" cellspacing="0"  align="center">
+                            <table class="main table-570" cellpadding="0" cellspacing="0"  align="center" style="margin-top: -40px;">
                                 <tr>
                                     <td class="orderNumAndDate-td" >
                                         <table class="table-570" cellpadding="0" cellspacing="0"  align="center" style="border-bottom: 1px solid #bbbaba;border-image-source:url('dashed7.png');border-image-slice: 1; border-image-repeat:space;border-radius: 15px;" bgcolor="#ffffff">
@@ -242,7 +220,7 @@
 
                                     <tr>
                                         <td class="orderDetails_text-td"align="center" >
-                                            <table class="table-510" cellpadding="0" cellspacing="0" width="570" align="center" bgcolor="#ffffff">
+                                            <table class="table-510" cellpadding="0" cellspacing="0" width="570" align="center" bgcolor="#ffffff" style="border-collapse: collapse;">
                                                 <tr>
                                                     <td align="center" >
                                                         <p style="font-family: Arial, Helvetica, sans-serif, Montserrat; font-weight: 700; font-size: 18px; margin-top: 25px; color: #19191E;" width="560">Состав заказа</p>
@@ -275,7 +253,7 @@
                                                     </td>
                                                 </tr>
                                             </table>
-                                            <table class="items-mobile table-570" cellpadding="0" cellspacing="0">
+                                            <table class="items-mobile table-570" cellpadding="0" cellspacing="0"style="border-collapse: collapse;">
                                                 <!-- 1st item mobile -->
                                                 <tr>
                                                     <td width="80">
@@ -363,7 +341,7 @@
                                                     </td>
                                                 </tr>
                                             </table>
-                                            <table class="items-desktop table-570" cellpadding="0" cellspacing="0"  width="570" style="border-bottom: 1px solid #D9D9D9;">
+                                            <table class="items-desktop table-570" cellpadding="0" cellspacing="0"  width="570" style="border-bottom: 1px solid #D9D9D9;border-collapse: collapse;" >
                                                 <tr style="border-bottom: 1px solid #D9D9D9;">
                                                     <!-- 1st item -->
                                                     <td width="80">
